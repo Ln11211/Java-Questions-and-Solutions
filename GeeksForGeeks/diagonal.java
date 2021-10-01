@@ -59,7 +59,7 @@ class diagonal
         
        System.out.println("The diagonal elements of the matrix are"); 
       for(int i=0;i<p;i++)                         //This part of the for loop prints diagonal elements..
-      {   int j=i;                                //until the principal diagonal(including elements on principal diagonal..
+      {   int j=i;                                // until the principal diagonal(including elements on principal diagonal)..
           for(int x=0;x<=i && x<q;x++,j--)
           {
              System.out.print(a[j][x]+"\t");     
@@ -70,7 +70,7 @@ class diagonal
      {
          int j=p-1;
        for(int x=i;x<q;x++,j--)                   //Doing a dry run of the code with some smaple inputs
-          {                                      // is suggested for understanding the logic() method
+          {                                      //  is suggested for understanding the logic() method
              System.out.print(a[j][x]+"\t");
             }
             System.out.println();
